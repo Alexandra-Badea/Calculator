@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="container">
+            <div class="display">
+                <div id="prevOperand" class="previous-operand"></div>
+                <div id="currOperand" class="current-operand"></div>
+            </div>
+            <button onclick="clearAll()" class="clear">AC</button>
+            <button onclick="deleteValue()">DEL</button>
+            <button onclick="getOperator('/')">/</button>
+            <button onclick="getNumber(1)">1</button>
+            <button onclick="getNumber(2)">2</button>
+            <button onclick="getNumber(3)">3</button>
+            <button onclick="getOperator('*')">*</button>
+            <button onclick="getNumber(4)">4</button>
+            <button onclick="getNumber(5)">5</button>
+            <button onclick="getNumber(6)">6</button>
+            <button onclick="getOperator('+')">+</button>
+            <button onclick="getNumber(7)">7</button>
+            <button onclick="getNumber(8)">8</button>
+            <button onclick="getNumber(9)">9</button>
+            <button onclick="getOperator('-')">-</button>
+            <button onclick="getNumber('.')">.</button>
+            <button onclick="getNumber(0)">0</button>
+            <button onclick="getResult()" class="equal">=</button>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
